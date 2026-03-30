@@ -282,12 +282,6 @@ Technology: Python Tkinter
 
 ---
 
-## License
-
-This project is, for academic purposes only.
-
----
-
 ##
 
 The Travel Planner is an artificial intelligence project that shows how artificial intelligence can be used to help people plan trips.
