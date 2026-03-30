@@ -64,22 +64,6 @@ This project uses these **AI concepts**:
 
 * Knowledge Representation using Dataset
 
-### Scoring Logic
-
-| Category | Score |
-
-| ------------- | ----- |
-
-| Purpose Match | +4 |
-
-Mood Match | +3 |
-
-| Weather Match | +2 |
-
-Budget Match | +1 |
-
-The 5 places with the highest scores are suggested.
-
 ## Technologies Used
 
 * Python 3
@@ -259,7 +243,3 @@ Through this project I learned:
 B.Tech Student
 
 Course: **Fundamentals of AI and ML**
-
-## License
-
-This project is for ** educational purposes**, under BYOP (Bring Your Own Project).
