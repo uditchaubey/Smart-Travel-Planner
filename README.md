@@ -279,13 +279,3 @@ Course: B.Tech
 Project: Travel Planner
 
 Technology: Python Tkinter
-
----
-
-##
-
-The Travel Planner is an artificial intelligence project that shows how artificial intelligence can be used to help people plan trips.
-
-The system uses rules to make decisions. Has a graphical interface that is easy to use.
-
-This project helps people understand how artificial intelligence concepts can be used in real-world applications.
