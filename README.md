@@ -38,7 +38,7 @@ A simple travel planner that works **offline** and suggests places based on what
 
 * Travel suggestions based on your **Purpose**
 
-* Travel suggestions based on your *Weather**
+* Travel suggestions based on your **Weather**
 
 * AI-based scoring and ranking system
 
@@ -164,7 +164,7 @@ Click **Clear** to reset your choices.
 
 * Mood: I want to have an **Adventure**
 
-* Budget: I have a Medium** budget
+* Budget: I have a **Medium** budget
 
 * Purpose: I'm going on a **Trip**
 
