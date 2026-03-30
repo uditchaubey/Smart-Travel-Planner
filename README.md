@@ -140,7 +140,7 @@ The app window will open.
 
 3. Select your **Purpose**
 
-4. Select your *Weather**
+4. Select your **Weather**
 
 5. Click **Suggest Place**
 
