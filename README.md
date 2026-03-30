@@ -1,70 +1,100 @@
-# Travel Planner
+# Smart Travel Planner 
 
-## About This Project
+**AI-Based Travel Recommendation System (BYOP Project)**
 
-The Travel Planner is a desktop application that helps people find travel destinations based on how they're feeling how much money they have and what they want to do.
+## Course
 
-This project was built using Python and a graphical user interface called Tkinter. It uses artificial intelligence to make decisions without needing to connect to the internet.
+**Fundamentals of AI and ML**
 
-The Travel Planner is a way to learn about basic artificial intelligence concepts, such as representing knowledge making decisions and creating systems that can think for themselves.
+## Project Overview
 
----
+The Smart Travel Planner is a travel app that suggests places to visit based on what you're feeling how money you have why you're traveling and what kind of weather you like.
 
-## What The Travel Planner Can Do
+It uses an AI scoring system to recommend the best travel spots.
 
-* It has an easy-to-use interface with a dark theme
+This project is part of a class called **Bring Your Project (BYOP)**.
 
-* It suggests travel destinations based on:
+The goal is to make it easy to choose a travel destination.
 
-* How you are feeling
+The app works on your computer **without the internet**.
 
-* How money you have
+It has a *simple and easy-to-use interface** made with Tkinter.
 
-* What you want to do
+## Problem Statement
 
-* It has a list of travel destinations
+People often have trouble deciding where to travel.
 
-* It always gives you at one suggestion
+Most travel apps need internet and complicated systems.
 
-* It works offline so you do not need the internet
+**Solution:**
 
-* It has a dropdown menu and clear buttons
+A simple travel planner that works **offline** and suggests places based on what you want.
 
-* It gives you travel suggestions
+## Features
 
----
+* Travel suggestions based on your **Mood**
+
+* Travel suggestions based on your **Budget**
+
+* Travel suggestions based on your **Purpose**
+
+* Travel suggestions based on your *Weather**
+
+* AI-based scoring and ranking system
+
+* Clean and simple UI
+
+* Works offline (No internet needed)
+
+* Easy to use
+
+* small app
+
+## AI Concept Used
+
+This project uses these **AI concepts**:
+
+* Rule-Based Recommendation System
+
+* Decision Making System
+
+* Scoring Algorithm
+
+* Preference-Based Filtering
+
+* Knowledge Representation using Dataset
+
+### Scoring Logic
+
+| Category | Score |
+
+| ------------- | ----- |
+
+| Purpose Match | +4 |
+
+Mood Match | +3 |
+
+| Weather Match | +2 |
+
+Budget Match | +1 |
+
+The 5 places with the highest scores are suggested.
 
 ## Technologies Used
 
-* Python
+* Python 3
 
-* Tkinter for the graphical user interface
+* Tkinter (for the interface)
 
-* A random number generator
+* Data Structures (List & Dictionary)
 
-* intelligence logic based on rules
-
----
-
-## Artificial Intelligence Concepts
-
-* Intelligent agents that can think for themselves
-
-* Representing knowledge in a way that computers can understand
-
-* Systems that make decisions based on rules
-
-* Making decisions and solving problems
-
-* Interfaces that people can use to interact with computers
-
----
+* AI Scoring Logic
 
 ## Project Structure
 
 ```
 
-Travel-Planner/
+Smart-Travel-Planner/
 
 │
 
@@ -72,61 +102,43 @@ Travel-Planner/
 
 ├── README.md
 
-└─ assets (optional)
+├── project_report.pdf
+
+└── screenshots/
+
+├── main_ui.png
+
+├── result.png
 
 ```
 
----
+## Installation & Setup
 
-## How To Get Started
-
-### Step 1: Get Python
+### Step 1: Install Python
 
 Download Python from:
 
 https://www.python.org/downloads/
 
-Make sure to check the box that says **Add Python to PATH**.
-
-### Step 2: Get Tkinter
-
-Tkinter comes with Python so you do not need to do anything else.
-
-To check if it is working:
+Check if Python is installed:
 
 ```
 
-python -m tkinter
+python --version
 
 ```
 
-If a window opens Tkinter is working.
-
----
-
-## How To Run The Project
-
-### Step 1
-
-Get the Python file.
-
-### Step 2
-
-Open a terminal. Command prompt.
-
-### Step 3
-
-Go to the project folder.
+### Step 2: Clone Repository
 
 ```
 
-cd Travel-Planner
+git clone https://github.com/yourusername/smart-travel-planner.git
+
+cd smart-travel-planner
 
 ```
 
-### Step 4
-
-Run the program.
+### Step 3: Run the Program
 
 ```
 
@@ -134,148 +146,120 @@ python travel_planner.py
 
 ```
 
----
+The app window will open.
 
-## How It Works
+## How to Use
 
-1. You choose how you are feeling
+1. Select your **Mood**
 
-2. You choose how money you have
+2. Select your **Budget**
 
-3. You choose what you want to do
+3. Select your **Purpose**
 
-4. You click the button that says Suggest Place
+4. Select your *Weather**
 
-5. The system looks at its list of travel destinations
+5. Click **Suggest Place**
 
-6. The artificial intelligence logic finds places that match what you want
+6. See the recommended travel destinations
 
-7. The system shows you the places it found
+Click **Clear** to reset your choices.
 
-If it cannot find a match it suggests similar places.
+## Output Screens
 
----
+### Main Interface
+
+(Add screenshot here)
+
+### Suggested Places
+
+(Add screenshot here)
 
 ## Example
 
-### What You Put In
+### Input
 
-Feeling:
+* Mood: I want to have an **Adventure**
 
-Money: Medium
+* Budget: I have a Medium** budget
 
-Thing to do: Trip
+* Purpose: I'm going on a **Trip**
 
-### What You Get
+* Weather: I like it **Cold**
 
-Shimla
-
-Coorg
-
-Kerala
-
----
-
-## List Of Travel Destinations
-
-The system has a lot of travel destinations such as:
-
-* Goa
+### Output
 
 * Manali
 
+* Gangtok
+
 * Shimla
 
-* Kerala
+* Ooty
 
-* Kashmir
+*
 
-* Jaipur
+## Advantages
 
-* Delhi
+* Simple and easy to use
 
-* Udaipur
+* Offline AI system
 
-* Rishikesh
+* No internet required
 
-* Leh Ladakh
+* suggestions
 
-* Coorg
+* Small app
 
-* Mumbai
+* User-friendly interface
 
-and more.
+## Limitations
 
----
+* Limited travel data
 
-## Future Plans
+* No real-time weather data
 
-* Estimating travel costs
+* No map integration
 
-* Calculating distances
+* No hotel booking system
 
-* Suggesting transportation
+## Future Improvements
 
-* Recommending hotels
+* Add real-time weather API
 
-* Showing pictures of places
+* Add Google Maps integration
 
-* Integrating maps
+* Add hotel and transport suggestions
 
-* Creating a user login system
+* Add travel cost estimation
 
----
+* Add user login system
 
-## Things About The Travel Planner
+* Add images of destinations
 
-* It is simple and easy to use
+## Learning Outcomes
 
-* It works offline
+Through this project I learned:
 
-* It is small. Does not take up much space
+* AI-based recommendation system design
 
-* It is good for beginners
+* Python interface development using Tkinter
 
-* It is useful for learning about intelligence
+* Problem-solving and decision-making
 
-* It has a graphical interface
+* Data. Filtering
 
----
+* Real-world project development
 
-## Things That Could Be Better
+* GitHub project management
 
-* The list of travel destinations is not changing
+## Author
 
-* It does not have real-time travel information
+**Udit Ravikant Chaubey**
 
-* You cannot book trips online
+B.Tech Student
 
-* It does not have many destinations as it could
+Course: **Fundamentals of AI and ML**
 
----
+## License
 
-## What You Can Learn
-
-After working on this project you will understand:
-
-* Basic artificial intelligence concepts
-
-* Systems that use knowledge to make decisions
-
-* Creating graphical user interfaces with Python
-
-* Making decisions based on rules
-
-* Designing interfaces that people can use
-
----
-
-## About The Author
-
-Name: Udit Ravikant Chaubey
-
-Course: B.Tech
-
-Project: Travel Planner
-
-Technology: Python Tkinter
+This project is for ** educational purposes**, under BYOP (Bring Your Own Project).
